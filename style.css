@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* position: fixed; */
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / .05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1000px;
+    opacity: 0.9;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btns {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.ru, .en {
+    padding: 10px;
+    border: none;
+    background-color: rgb(225, 225, 225);
+}
+
+.uz, .kirish {
+    padding: 10px;
+    background: linear-gradient(135deg,rgba(0, 0, 0, 1) 0%, rgba(0, 125, 0, 1) 100%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.kirish {
+    padding: 15px 20px;
+    border-radius: 14px;
+}
+
+.section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: rgb(225, 255, 225);
+}
+
+.start-top {
+    background-color: lime;
+    display: flex inline;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.start-top p, .tick {
+    font-size: 20px;
+}
+
+.section h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.section h1 span {
+    color: green;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg,rgba(0, 0, 0, 1) 0%, rgba(0, 125, 0, 1) 100%);
+    color: white;
+    transition: box-shadow 0.5s ease;
+}
+
+.start:hover {
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.present {
+    display: flex;
+    gap: 50px;
+}
+
+.present1 span {
+    color: green;
+    font-size: 50px;
+}
+
+.present1 {
+    padding: 50px;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: 0 5px 7.5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
